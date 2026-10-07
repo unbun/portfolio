@@ -69,9 +69,3 @@ public/
 ```
 
 Respects `prefers-reduced-motion` (everything is shown, nothing animates) and `prefers-color-scheme` (automatic dark mode).
-
-## Deploying (GitHub Pages)
-
-`.github/workflows/pages.yml` publishes the site on every push to `main`. It copies `public/` to the site root and `resources/` to `/resources`. Pages serves static files only and doesn't run `server.js`, so all links in the site are relative. That way it works at a domain root (`unnashussain.com`) or under a subpath (`unbun.github.io/portfolio`).
-
-One-time setup: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
