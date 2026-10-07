@@ -32,13 +32,14 @@
     ]
   },
   {
-    "title": "Mentoring SuperCap — GPU AprilTag Vision",
+    "title": "GPU AprilTag Vision & TPU Object Detection",
     "org": "FRC Team 2713",
-    "summary": "Guided a student-developed on-robot vision coprocessor for FRC: multi-camera capture on an NVIDIA Jetson, CUDA-accelerated AprilTag detection and pose estimation, with results published to the robot over NetworkTables.",
+    "summary": "Guided a student-developed on-robot vision coprocessor for FRC: multi-camera capture on an NVIDIA Jetson, CUDA-accelerated AprilTag detection and pose estimation, and YOLO game-piece detection on a Google Coral TPU, with results published to the robot over NetworkTables.",
     "bullets": [
-      "Oversaw development of V4L2 multi-camera capture process with GPU YUV→RGB conversion and an MJPEG debug stream",
-      "Implemented camera intrinsics calibration utilities and a uvcvideo kernel patch for bandwidth-hungry USB cameras",
-      "Talks to the robot over NetworkTables and CAN (Phoenix 6)"
+      "Oversaw development of V4L2 multi-camera capture process with GPU YUV→RGB conversion and an MJPEG debug stream.",
+      "Implemented camera intrinsics calibration utilities and a uvcvideo kernel patch for bandwidth-hungry USB cameras.",
+      "Configured and imaged a Google Coral TPU for development of YOLOv6 object detection to find game pieces.",
+      "Talks to the robot over NetworkTables and CAN."
     ],
     "tags": [
       "C++20",
@@ -49,6 +50,10 @@
       "Jetson",
       "AprilTags",
       "Pose Estimation",
+      "Google Coral",
+      "Edge TPU",
+      "YOLO",
+      "Object Detection",
       "Camera Calibration",
       "V4L2",
       "GStreamer",
@@ -203,9 +208,9 @@
     "org": "Personal",
     "summary": "An NHL twist on the viral 82-0 game. Roll a franchise and a decade, draft a real six-man lineup one locked slot at a time, then a stats-based simulation plays out an 82-game season.",
     "bullets": [
-      "Every stat pulled from the NHL's official API, from 1917 to today",
-      "Relocated franchises folded into today's 32 teams; off-side skaters penalized",
-      "No build step and no dependencies — pure HTML, CSS and JS"
+      "Every stat pulled from the NHL's official API, from 1917 to today.",
+      "Relocated franchises folded into today's 32 teams; off-side skaters penalized.",
+      "No build step and no dependencies — pure HTML, CSS and JS."
     ],
     "tags": [
       "JavaScript",
@@ -265,8 +270,8 @@
     "org": "FRC Team 2713",
     "summary": "Competition robot software for Red Hawk Robotics, from the 2023 robot through the 2026 swerve-drive kit bot.",
     "bullets": [
-      "AprilTag localization with Limelight pipelines",
-      "Autonomous routines with PathPlanner; telemetry with AdvantageKit and AdvantageScope"
+      "AprilTag localization with Limelight pipelines.",
+      "Autonomous routines with PathPlanner; telemetry with AdvantageKit and AdvantageScope."
     ],
     "tags": [
       "Java",

@@ -6,10 +6,10 @@
     "location": "Boston, MA",
     "summary": "Robotics engineering in Medtronic's surgical robotics organization.",
     "bullets": [
-      "Developing control algorithms, kinematic algorithms, and AI/ML computer vision software for endoluminal robots with continuum articulation joints",
-      "Delivering medical-grade precision controls software at 4kHz response rates, with training and experience in agentic programming",
-      "Developing 6DOF Kalman Filter estimator for EM-enabled robotic bronchoscope navigating inside anatomy",
-      "Implementing multi-threaded characterizing and tuning tools for real-time control loop tuning on QNX",
+      "Developing control algorithms, kinematic algorithms, and AI/ML computer vision software for endoluminal robots with continuum articulation joints.",
+      "Delivering medical-grade precision controls software at 4kHz response rates, with training and experience in agentic programming.",
+      "Developing 6DOF Kalman Filter estimator for EM-enabled robotic bronchoscope navigating inside anatomy.",
+      "Implementing multi-threaded characterizing and tuning tools for real-time control loop tuning on QNX.",
       "Leading software efforts for ground-zero product development, building prototypes for formative studies across the world to engage surgeons and field experts on controls requirements, robot designs and usability."
     ],
     "tags": [
@@ -24,9 +24,9 @@
     "location": "Engineering for Professionals",
     "summary": "Part-time graduate study alongside full-time work, supported by an Engineering for Professionals Fellowship.",
     "bullets": [
-      "Intro to Robotics: implementing controls theory topics in ROS 2 Jazzy and TurtleBot3",
-      "Kinematics & Dynamics: Stewart platform modeling and simulation in MATLAB",
-      "Foundations of algorithms: developing machine learning, supervised learning, and unsupervised learning algorithms from scratch with real-world data"
+      "Intro to Robotics: implementing controls theory topics in ROS 2 Jazzy and TurtleBot3.",
+      "Kinematics & Dynamics: Stewart platform modeling and simulation in MATLAB.",
+      "Algorithms & Data Science: developing machine learning, supervised learning, and unsupervised learning algorithms from scratch with real-world data."
     ],
     "tags": [
       "ROS 2",
@@ -44,9 +44,10 @@
     "summary": "Mentoring high-school students on the software side of a FIRST Robotics Competition team.",
     "bullets": [
       "Robot code in Java/WPILib: teaching a range of software topics including high-level task commanding, path planning, PID tuning, and low-level motor controls.",
-      "Developed easy-to-use interface for AprilTag UMich detection pipeline and pose estimation on Jetson CUDA operating systems.",
-      "Contributed to an in-browser Java onboarding curriculum for new students",
-      "Driver-station tooling, including a React + TypeScript rumble display"
+      "Co-developed an easy-to-use interface for the UMich AprilTag detection pipeline and pose estimation, CUDA-accelerated on NVIDIA Jetson.",
+      "Co-developed a machine learning object detection pipeline running on a Google Coral TPU.",
+      "Contributed to an in-browser Java onboarding curriculum for new students.",
+      "Driver-station tooling, including a React + TypeScript rumble display."
     ],
     "tags": [
       "Java",
@@ -94,14 +95,16 @@
   },
   {
     "period": "2017 — 2021",
-    "title": "B.S.E. Computer Engineering & Computer Science",
+    "title": "B.S.E. Computer Engineering & Computer Science · Head\u00a0TA · Research\u00a0Assistant",
     "org": "Northeastern University",
     "location": "Boston, MA",
     "summary": "Combined major in computer engineering and computer science, with co-ops in robotics and medical devices.",
     "bullets": [
-      "Coursework in object-oriented design, computer systems, networks, mobile robotics and healthcare technology",
-      "Planar robot arm design and trajectory planning in Simulink (ME 3460)",
-      "Worked with FRC Team 125, the NUTRONs, on motion-profiling tools"
+      "Coursework in object-oriented design, computer systems, networks, mobile robotics and healthcare technology.",
+      "Head TA for Fundamentals of SW I & II, teaching a wide range of Java and OOD topics to over 100 students a semester.",
+      "Research Assistant for the Field Robotics Lab, exploring ROS-based sensing architectures for land, sea, and air AVs.",
+      "Planar robot arm design and trajectory planning in Simulink.",
+      "Worked with FRC Team 125, the NUTRONs, on motion-profiling tools."
     ],
     "tags": [
       "C",
@@ -130,8 +133,8 @@
     "location": "Schenectady, NY",
     "summary": "Designed and developed wind-farm level analysis software to ensure turbines produce efficient and safe energy levels as a network of generators.",
     "bullets": [
-      "Automated region-specific power-generation measurements with SQL during non-planned anomalies, such as adverse weather events",
-      "Generated live reports with custom Python scripts so business decisions were guided by real performance rather than uncontrollable events"
+      "Automated region-specific power-generation measurements with SQL during non-planned anomalies, such as adverse weather events.",
+      "Generated live reports with custom Python scripts so business decisions were guided by real performance rather than uncontrollable events."
     ],
     "tags": [
       "SQL",
@@ -160,7 +163,7 @@
     "location": "Troy, NY",
     "summary": "Developed a Vertical Profiler Sonde System that automatically collects and analyzes water samples while safely avoiding wildlife, aiding the Jefferson Project's Lake George conservation efforts.",
     "bullets": [
-      "Implemented the UI controls for tele-operating and tuning a closed-loop control system for lightweight motor controllers in Python"
+      "Implemented the UI controls for tele-operating and tuning a closed-loop control system for lightweight motor controllers in Python."
     ],
     "tags": [
       "Python",
@@ -176,8 +179,8 @@
     "location": "Albany, NY",
     "summary": "Helped design and build an ultra-high vacuum system to deposit TiO₂ crystals that catalyze electrolysis, aiming to increase the energy yield of hydrogen fuel cells and further hydrogen-based clean energy.",
     "bullets": [
-      "Integrated the system's mechanical and ion pump vacuums",
-      "Assisted with X-ray photoelectron spectroscopy (XPS) to collect data on sample TiO₂ depositions"
+      "Integrated the system's mechanical and ion pump vacuums.",
+      "Assisted with X-ray photoelectron spectroscopy (XPS) to collect data on sample TiO₂ depositions."
     ],
     "tags": [
       "Vacuum systems",
@@ -187,14 +190,14 @@
   },
   {
     "period": "2013 — 2017",
-    "title": "Student, Programming",
+    "title": "Student, Head of Programming",
     "org": "FRC Team 2791 — Shaker Robotics",
     "location": "Latham, NY",
     "summary": "Where it started: high-school FIRST robotics, writing the robot's code.",
     "bullets": [
-      "Head of Software development for teleoperation and autonomous robot code",
-      "Brought Team 254's trajectory library into the team's Java robot code for smooth autonomous pathing from predefined waypoints",
-      "Wrote small ROS Kinetic driver nodes on the side"
+      "Head of software development for teleoperation and autonomous robot code.",
+      "Brought Team 254's trajectory library into the team's Java robot code for smooth autonomous pathing from predefined waypoints.",
+      "Wrote small ROS Kinetic driver nodes on the side."
     ],
     "tags": [
       "Java",
