@@ -43,7 +43,7 @@
     "location": "Massachusetts",
     "summary": "Mentoring high-school students on the software side of a FIRST Robotics Competition team.",
     "bullets": [
-      "Robot code in Java/WPILib: teaching a range of software topics including high level task commanding, path planning, PID tuning, and low level motor controls.",
+      "Robot code in Java/WPILib: teaching a range of software topics including high-level task commanding, path planning, PID tuning, and low-level motor controls.",
       "Developed easy-to-use interface for AprilTag UMich detection pipeline and pose estimation on Jetson CUDA operating systems.",
       "Contributed to an in-browser Java onboarding curriculum for new students",
       "Driver-station tooling, including a React + TypeScript rumble display"
@@ -66,10 +66,10 @@
     "title": "Embedded Software Engineer",
     "org": "Hologic",
     "location": "Marlborough, MA",
-    "summary": "Embedded software motor controller, camera capturing, and laser-etching devices for the ThinPrep 5000",
+    "summary": "Embedded software for the motor controllers, camera capture and laser-etching devices of the ThinPrep 5000.",
     "bullets": [
       "Implemented and updated embedded control logic for motorized and pneumatic subsystems within the ThinPrep 5000 (TP5000) system for fully automatic processing of gynecology, oncology, and Pap test samples.",
-      "Developed slide designer to create custom laser-etched slides that can be read by integrated Congix cameras.",
+      "Developed slide designer to create custom laser-etched slides that can be read by integrated Cognex cameras.",
       "Designed robust TP5000 “power-on” tests to guarantee the system starts in a happy state or prompts the user."
     ],
     "tags": [
@@ -82,7 +82,7 @@
     "title": "Software Development Engineer",
     "org": "Amazon Robotics",
     "location": "North Reading, MA",
-    "summary": "Algorithmic task planning and robotic resource allocation software for thousands of fleets of warehouse drive units",
+    "summary": "Algorithmic task planning and robotic resource allocation software for thousands of fleets of warehouse drive units.",
     "bullets": [
       "Implemented software across navigation stack for over 520K Robotic Units, including task assignment with Min Cost Flow optimizers, AprilTag-based localization, and real-time driving adjustments for human interactions.",
       "Developed AWS Coral interceptors to compare computational load between base and optimized algorithms.",
@@ -193,7 +193,7 @@
     "summary": "Where it started: high-school FIRST robotics, writing the robot's code.",
     "bullets": [
       "Head of Software development for teleoperation and autonomous robot code",
-      "Brought Team 254's trajectory library into the Java for smooth autonomous pathing from pre-defined waypoitns",
+      "Brought Team 254's trajectory library into the team's Java robot code for smooth autonomous pathing from predefined waypoints",
       "Wrote small ROS Kinetic driver nodes on the side"
     ],
     "tags": [

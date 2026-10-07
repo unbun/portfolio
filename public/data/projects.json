@@ -34,10 +34,10 @@
   {
     "title": "Mentoring SuperCap — GPU AprilTag Vision",
     "org": "FRC Team 2713",
-    "summary": "Guided student-developed on-robot vision coprocessor for FRC: multi-camera capture on an NVIDIA Jetson, CUDA-accelerated AprilTag detection and pose estimation, with results published to the robot over NetworkTables.",
+    "summary": "Guided a student-developed on-robot vision coprocessor for FRC: multi-camera capture on an NVIDIA Jetson, CUDA-accelerated AprilTag detection and pose estimation, with results published to the robot over NetworkTables.",
     "bullets": [
       "Oversaw development of V4L2 multi-camera capture process with GPU YUV→RGB conversion and an MJPEG debug stream",
-      "Implemented Camera intrinsics calibration utilities and a uvcvideo kernel patch for bandwidth-hungry USB cameras",
+      "Implemented camera intrinsics calibration utilities and a uvcvideo kernel patch for bandwidth-hungry USB cameras",
       "Talks to the robot over NetworkTables and CAN (Phoenix 6)"
     ],
     "tags": [
@@ -365,7 +365,7 @@
   {
     "title": "Vision-Guided Robotic Navigation",
     "org": "Northeastern — CS 4610",
-    "summary": "Arduino and Gazebo control code to automatically navigate tank-bot guided only with camera vision.",
+    "summary": "Arduino and Gazebo control code to automatically navigate a tank-bot guided only with camera vision.",
     "tags": [
       "C++",
       "Python",
