@@ -1,0 +1,474 @@
+[
+  {
+    "title": "Stewart Platform Ball Balancer",
+    "org": "Johns Hopkins — Kinematics & Dynamics",
+    "summary": "Inverse kinematics of a six-DOF Stewart platform coupled with rolling-ball dynamics, simulated and animated in MATLAB, with phase-portrait tools for analyzing stability.",
+    "tags": [
+      "MATLAB",
+      "Kinematics",
+      "Inverse Kinematics",
+      "Dynamics",
+      "Controls",
+      "Simulation",
+      "Stability Analysis",
+      "Phase Portraits",
+      "Data Visualization",
+      "Technical Writing"
+    ],
+    "kind": "platform",
+    "links": [
+      {
+        "label": "Download paper (PDF)",
+        "url": "resources/HUSSAIN_Stewart%20Platform_Final%20Project%20Paper.pdf",
+        "download": true
+      }
+    ],
+    "categories": [
+      "Robotics",
+      "Controls",
+      "Simulation",
+      "Software",
+      "Coursework"
+    ]
+  },
+  {
+    "title": "Mentoring SuperCap — GPU AprilTag Vision",
+    "org": "FRC Team 2713",
+    "summary": "Guided student-developed on-robot vision coprocessor for FRC: multi-camera capture on an NVIDIA Jetson, CUDA-accelerated AprilTag detection and pose estimation, with results published to the robot over NetworkTables.",
+    "bullets": [
+      "Oversaw development of V4L2 multi-camera capture process with GPU YUV→RGB conversion and an MJPEG debug stream",
+      "Implemented Camera intrinsics calibration utilities and a uvcvideo kernel patch for bandwidth-hungry USB cameras",
+      "Talks to the robot over NetworkTables and CAN (Phoenix 6)"
+    ],
+    "tags": [
+      "C++20",
+      "CUDA",
+      "Python",
+      "JavaScript",
+      "OpenCV",
+      "Jetson",
+      "AprilTags",
+      "Pose Estimation",
+      "Camera Calibration",
+      "V4L2",
+      "GStreamer",
+      "FFmpeg",
+      "MJPEG Streaming",
+      "NetworkTables",
+      "CAN",
+      "Phoenix 6",
+      "WPILib",
+      "CMake",
+      "Linux",
+      "Kernel Patching",
+      "Multithreading",
+      "Mentoring"
+    ],
+    "kind": "vision",
+    "categories": [
+      "Robotics",
+      "Teaching",
+      "Vision",
+      "Embedded",
+      "Software"
+    ]
+  },
+  {
+    "title": "FRC 2713 Software Training",
+    "org": "FRC Team 2713",
+    "summary": "An onboarding curriculum that teaches new students Java — the language FRC robot code is written in — with lessons that compile and run Java right in the browser.",
+    "tags": [
+      "Java",
+      "TypeScript",
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "CodeMirror",
+      "React Flow",
+      "CheerpJ",
+      "GitHub Actions",
+      "GitHub Pages",
+      "Curriculum Design",
+      "Mentoring"
+    ],
+    "links": [
+      {
+        "label": "Live site",
+        "url": "https://frc2713.github.io/software_training/"
+      }
+    ],
+    "kind": "teaching",
+    "categories": [
+      "Teaching",
+      "Web",
+      "Software"
+    ]
+  },
+  {
+    "title": "Athelas — Robotic Bedside Assistant",
+    "org": "Northeastern — Engineering Capstone",
+    "summary": "Robotic system to perform vital measuring procedures with medical grade sensors and automatic body alignment for low-mobility patients.",
+    "tags": [
+      "C++",
+      "C",
+      "Python",
+      "Java",
+      "ROS",
+      "Arduino",
+      "Jetson Nano",
+      "Inverse Kinematics",
+      "Pose Estimation",
+      "OpenPose",
+      "Pulse Oximetry",
+      "IR Thermometry",
+      "Biological Sensor Integration",
+      "Bluetooth",
+      "Android",
+      "CMake",
+      "Linux"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/athelas-NEU"
+      }
+    ],
+    "kind": "medical",
+    "categories": [
+      "Robotics",
+      "Medical",
+      "Embedded",
+      "Vision",
+      "Controls",
+      "Software",
+      "Coursework"
+    ]
+  },
+  {
+    "title": "EMG Wrist Position Estimation",
+    "org": "Northeastern — Healthcare Technology",
+    "summary": "Estimating a patient's wrist position from EMG signals using KNN regression.",
+    "tags": [
+      "Python",
+      "Machine learning",
+      "KNN Regression",
+      "Signal Processing",
+      "EMG",
+      "Biosignals",
+      "Feature Engineering",
+      "Data Analysis"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/unbun/healthcaretech_knn"
+      }
+    ],
+    "kind": "signal",
+    "categories": [
+      "ML & Data",
+      "Medical",
+      "Software",
+      "Coursework"
+    ]
+  },
+  {
+    "title": "Civilization VI Mods",
+    "org": "Personal",
+    "summary": "Custom civilizations plus fixes for a Westeros-themed overhaul mod, with a Python script that generates the in-game icon sets.",
+    "tags": [
+      "Lua",
+      "XML",
+      "Python",
+      "Pillow",
+      "Image Processing",
+      "Game Modding",
+      "Asset Pipelines",
+      "Procedural Generation"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/unbun/civ-6-mods"
+      }
+    ],
+    "kind": "hex",
+    "categories": [
+      "Games",
+      "Software"
+    ]
+  },
+  {
+    "title": "82-0-0",
+    "org": "Personal",
+    "summary": "An NHL twist on the viral 82-0 game. Roll a franchise and a decade, draft a real six-man lineup one locked slot at a time, then a stats-based simulation plays out an 82-game season.",
+    "bullets": [
+      "Every stat pulled from the NHL's official API, from 1917 to today",
+      "Relocated franchises folded into today's 32 teams; off-side skaters penalized",
+      "No build step and no dependencies — pure HTML, CSS and JS"
+    ],
+    "tags": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Data ETL",
+      "REST APIs",
+      "NHL API",
+      "Simulation",
+      "Statistics",
+      "Game Design",
+      "Static Sites"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/unbun/82-0-0"
+      }
+    ],
+    "kind": "rink",
+    "categories": [
+      "Games",
+      "Web",
+      "Simulation",
+      "ML & Data",
+      "Software"
+    ]
+  },
+  {
+    "title": "TurtleBot3 on ROS 2 Coursework",
+    "org": "Johns Hopkins — Intro to Robotics",
+    "summary": "Coursework workspaces for ROS 2 Jazzy and TurtleBot3, run in a containerized desktop. Also the inspiration for the little robot driving down this page.",
+    "tags": [
+      "ROS 2",
+      "Python",
+      "TurtleBot3",
+      "Gazebo",
+      "Docker",
+      "Linux",
+      "MATLAB",
+      "Controls",
+      "Differential Drive",
+      "Odometry"
+    ],
+    "kind": "mobile",
+    "categories": [
+      "Robotics",
+      "Controls",
+      "Simulation",
+      "Software",
+      "Coursework"
+    ]
+  },
+  {
+    "title": "FRC 2713 Robot Code",
+    "org": "FRC Team 2713",
+    "summary": "Competition robot software for Red Hawk Robotics, from the 2023 robot through the 2026 swerve-drive kit bot.",
+    "bullets": [
+      "AprilTag localization with Limelight pipelines",
+      "Autonomous routines with PathPlanner; telemetry with AdvantageKit and AdvantageScope"
+    ],
+    "tags": [
+      "Java",
+      "WPILib",
+      "Gradle",
+      "Swerve",
+      "PID",
+      "Path Planning",
+      "PathPlanner",
+      "AprilTags",
+      "Limelight",
+      "Vision",
+      "Pose Estimation",
+      "AdvantageKit",
+      "AdvantageScope",
+      "Logging & Telemetry",
+      "CAN",
+      "Mentoring"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/FRC2713/Robot2023"
+      }
+    ],
+    "kind": "swerve",
+    "categories": [
+      "Robotics",
+      "Controls",
+      "Vision",
+      "Embedded",
+      "Software",
+      "Teaching"
+    ]
+  },
+  {
+    "title": "FRC Swerve Drive & Motion Profiling",
+    "org": "FIRST Robotics",
+    "summary": "A simple swerve drive library for FRC robots, and a motion profile generator updated for the 2018 season and customized for Teams 2791 and 125.",
+    "tags": [
+      "Java",
+      "WPILib",
+      "Swerve",
+      "Kinematics",
+      "Motion Profiling",
+      "Trajectory Generation",
+      "Controls",
+      "PID",
+      "FIRST"
+    ],
+    "links": [
+      {
+        "label": "SwerveDrive",
+        "url": "https://github.com/unbun/SwerveDrive"
+      },
+      {
+        "label": "Motion profiles",
+        "url": "https://github.com/unbun/Motion_Profile_Generator2018"
+      }
+    ],
+    "kind": "profile",
+    "categories": [
+      "Robotics",
+      "Controls",
+      "Software"
+    ]
+  },
+  {
+    "title": "Planar Arm Design",
+    "org": "Northeastern — ME 3460",
+    "summary": "Design of a planar robot arm and its trajectory for a final project, modeled and simulated in Simulink.",
+    "tags": [
+      "MATLAB",
+      "Simulink",
+      "Kinematics",
+      "Inverse Kinematics",
+      "Dynamics",
+      "Trajectory Planning",
+      "Controls",
+      "Simulation"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/unbun/me3460-planarArmDesign"
+      }
+    ],
+    "kind": "arm",
+    "categories": [
+      "Robotics",
+      "Controls",
+      "Simulation",
+      "Coursework"
+    ]
+  },
+  {
+    "title": "Vision-Guided Robotic Navigation",
+    "org": "Northeastern — CS 4610",
+    "summary": "Arduino and Gazebo control code to automatically navigate tank-bot guided only with camera vision.",
+    "tags": [
+      "C++",
+      "Python",
+      "Arduino",
+      "Gazebo",
+      "AprilTags",
+      "Computer Vision",
+      "Differential Drive",
+      "Navigation",
+      "Controls"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/unbun/cs4610-final-project"
+      }
+    ],
+    "kind": "mobile",
+    "categories": [
+      "Robotics",
+      "Vision",
+      "Embedded",
+      "Simulation",
+      "Software",
+      "Coursework"
+    ]
+  },
+  {
+    "title": "COWFS",
+    "org": "Northeastern — CS 3650",
+    "summary": "Copy-on-write file system built from scratch with C to efficiently store and manage files, directories, and links on a mounted virtual hard drive.",
+    "tags": [
+      "C",
+      "Assembly",
+      "Unix",
+      "Linux",
+      "File Systems",
+      "Copy-on-Write",
+      "Data Structures",
+      "Makefile",
+      "Perl",
+      "Systems Programming"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/unbun/challenge03-cs3650"
+      }
+    ],
+    "kind": "fs",
+    "categories": [
+      "Software",
+      "Coursework"
+    ]
+  },
+  {
+    "title": "OsiCharge Learner",
+    "org": "2016 Cleantech Hackathon",
+    "summary": "A quick demonstration of OsiCharger's active-learning machine, built for the 2016 Cleantech Hackathon.",
+    "tags": [
+      "Python",
+      "Machine learning",
+      "Active Learning",
+      "Data Analysis",
+      "Clean Energy",
+      "Hackathon",
+      "Prototyping"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/unbun/OsiChargeLearner"
+      }
+    ],
+    "kind": "ml",
+    "categories": [
+      "ML & Data",
+      "Software"
+    ]
+  },
+  {
+    "title": "LFI ROS Drivers",
+    "org": "Personal",
+    "summary": "A collection of simple driver nodes for ROS Kinetic.",
+    "tags": [
+      "ROS",
+      "Python",
+      "CMake",
+      "Linux",
+      "Device Drivers",
+      "Catkin"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/unbun/LFIDrivers"
+      }
+    ],
+    "kind": "ros",
+    "categories": [
+      "Robotics",
+      "Embedded",
+      "Software"
+    ]
+  }
+]

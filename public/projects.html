@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects — Unnas Hussain</title>
+  <meta name="description" content="Robotics, software and side projects by Unnas Hussain.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="Unnas Hussain, home">
+        <span class="brand-mark">UH</span>
+        <span class="brand-name">Unnas Hussain</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="./">Home</a>
+        <a href="experience">Experience</a>
+        <a href="projects" aria-current="page">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-intro">
+      <div class="wrap">
+        <p class="kicker"><span class="accent">/projects</span> — selected work</p>
+        <h1>Projects</h1>
+        <p class="lede">Robots, simulations, tools and games: coursework, competition code and things built for fun.</p>
+      </div>
+    </section>
+
+    <section class="wrap proj-summary" aria-label="Project summary"></section>
+
+    <section class="wrap projects" data-source="data/projects.json" aria-label="Projects">
+      <div class="proj-filters" role="group" aria-label="Filter projects"></div>
+      <div class="proj-grid"></div>
+      <noscript><p>This page needs JavaScript to load projects.</p></noscript>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© <span data-year>2026</span> Unnas Hussain</span>
+      <span class="links">
+        <a href="./">Home</a>
+        <a href="experience">Experience</a>
+        <a href="./#contact">Contact</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
+</body>
+</html>

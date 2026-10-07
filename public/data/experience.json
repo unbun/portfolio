@@ -1,0 +1,205 @@
+[
+  {
+    "period": "August 2023 — Present",
+    "title": "Senior Software Engineer",
+    "org": "Medtronic",
+    "location": "Boston, MA",
+    "summary": "Robotics engineering in Medtronic's surgical robotics organization.",
+    "bullets": [
+      "Developing control algorithms, kinematic algorithms, and AI/ML computer vision software for endoluminal robots with continuum articulation joints",
+      "Delivering medical-grade precision controls software at 4kHz response rates, with training and experience in agentic programming",
+      "Developing 6DOF Kalman Filter estimator for EM-enabled robotic bronchoscope navigating inside anatomy",
+      "Implementing multi-threaded characterizing and tuning tools for real-time control loop tuning on QNX",
+      "Leading software efforts for ground-zero product development, building prototypes for formative studies across the world to engage surgeons and field experts on controls requirements, robot designs and usability."
+    ],
+    "tags": [
+      "Surgical robotics",
+      "Medical devices"
+    ]
+  },
+  {
+    "period": "2026 — 2027 (Expected)",
+    "title": "M.S. Robotics & Autonomous Systems",
+    "org": "Johns Hopkins University — Whiting School of Engineering",
+    "location": "Engineering for Professionals",
+    "summary": "Part-time graduate study alongside full-time work, supported by an Engineering for Professionals Fellowship.",
+    "bullets": [
+      "Intro to Robotics: implementing controls theory topics in ROS 2 Jazzy and TurtleBot3",
+      "Kinematics & Dynamics: Stewart platform modeling and simulation in MATLAB",
+      "Foundations of algorithms: developing machine learning, supervised learning, and unsupervised learning algorithms from scratch with real-world data"
+    ],
+    "tags": [
+      "ROS 2",
+      "MATLAB",
+      "Python",
+      "Lua",
+      "Education"
+    ]
+  },
+  {
+    "period": "September 2023 — Present",
+    "title": "Software Mentor",
+    "org": "FRC Team 2713 — Red Hawk Robotics",
+    "location": "Massachusetts",
+    "summary": "Mentoring high-school students on the software side of a FIRST Robotics Competition team.",
+    "bullets": [
+      "Robot code in Java/WPILib: teaching a range of software topics including high level task commanding, path planning, PID tuning, and low level motor controls.",
+      "Developed easy-to-use interface for AprilTag UMich detection pipeline and pose estimation on Jetson CUDA operating systems.",
+      "Contributed to an in-browser Java onboarding curriculum for new students",
+      "Driver-station tooling, including a React + TypeScript rumble display"
+    ],
+    "tags": [
+      "Java",
+      "WPILib",
+      "Mentoring",
+      "FIRST"
+    ],
+    "links": [
+      {
+        "label": "github.com/FRC2713",
+        "url": "https://github.com/FRC2713"
+      }
+    ]
+  },
+  {
+    "period": "December 2022 — July 2023",
+    "title": "Embedded Software Engineer",
+    "org": "Hologic",
+    "location": "Marlborough, MA",
+    "summary": "Embedded software motor controller, camera capturing, and laser-etching devices for the ThinPrep 5000",
+    "bullets": [
+      "Implemented and updated embedded control logic for motorized and pneumatic subsystems within the ThinPrep 5000 (TP5000) system for fully automatic processing of gynecology, oncology, and Pap test samples.",
+      "Developed slide designer to create custom laser-etched slides that can be read by integrated Congix cameras.",
+      "Designed robust TP5000 “power-on” tests to guarantee the system starts in a happy state or prompts the user."
+    ],
+    "tags": [
+      "Medical devices",
+      "Embedded software"
+    ]
+  },
+  {
+    "period": "June 2021 — November 2022",
+    "title": "Software Development Engineer",
+    "org": "Amazon Robotics",
+    "location": "North Reading, MA",
+    "summary": "Algorithmic task planning and robotic resource allocation software for thousands of fleets of warehouse drive units",
+    "bullets": [
+      "Implemented software across navigation stack for over 520K Robotic Units, including task assignment with Min Cost Flow optimizers, AprilTag-based localization, and real-time driving adjustments for human interactions.",
+      "Developed AWS Coral interceptors to compare computational load between base and optimized algorithms.",
+      "Owned and developed internal tools to visualize live and historical metrics of robotic equipment, including real-time state updates for over 1500 daily users (Amazon Engineers and Warehouse Associates)."
+    ],
+    "tags": [
+      "Warehouse robotics"
+    ]
+  },
+  {
+    "period": "2017 — 2021",
+    "title": "B.S.E. Computer Engineering & Computer Science",
+    "org": "Northeastern University",
+    "location": "Boston, MA",
+    "summary": "Combined major in computer engineering and computer science, with co-ops in robotics and medical devices.",
+    "bullets": [
+      "Coursework in object-oriented design, computer systems, networks, mobile robotics and healthcare technology",
+      "Planar robot arm design and trajectory planning in Simulink (ME 3460)",
+      "Worked with FRC Team 125, the NUTRONs, on motion-profiling tools"
+    ],
+    "tags": [
+      "C",
+      "Java",
+      "Racket",
+      "Python",
+      "Simulink"
+    ]
+  },
+  {
+    "period": "July 2019 — May 2020",
+    "title": "Co-op, Surgical Robotics",
+    "org": "Medtronic",
+    "location": "Boston, MA",
+    "summary": "Built an application to virtually set up and interact with the robotic system in a simulated environment.",
+    "bullets": [],
+    "tags": [
+      "Simulation",
+      "Surgical robotics"
+    ]
+  },
+  {
+    "period": "April 2019 — July 2019",
+    "title": "Technical EID Intern",
+    "org": "GE Renewable Energy",
+    "location": "Schenectady, NY",
+    "summary": "Designed and developed wind-farm level analysis software to ensure turbines produce efficient and safe energy levels as a network of generators.",
+    "bullets": [
+      "Automated region-specific power-generation measurements with SQL during non-planned anomalies, such as adverse weather events",
+      "Generated live reports with custom Python scripts so business decisions were guided by real performance rather than uncontrollable events"
+    ],
+    "tags": [
+      "SQL",
+      "Python",
+      "Data analysis",
+      "Energy"
+    ]
+  },
+  {
+    "period": "June 2018 — August 2018",
+    "title": "Embedded Software Fellow Intern",
+    "org": "GE Research",
+    "location": "Niskayuna, NY",
+    "summary": "Developed statistical feedback software for industrial additive manufacturing (“metallic 3D printing”) machines that use Direct Metal Laser Melting (DMLM) to create highly complex jet engine parts with improved structural integrity for GE Aviation.",
+    "bullets": [],
+    "tags": [
+      "Go",
+      "Multithreading",
+      "Additive manufacturing"
+    ]
+  },
+  {
+    "period": "August 2016 — July 2017",
+    "title": "Student Research Intern (CATS Lab)",
+    "org": "Rensselaer Polytechnic Institute",
+    "location": "Troy, NY",
+    "summary": "Developed a Vertical Profiler Sonde System that automatically collects and analyzes water samples while safely avoiding wildlife, aiding the Jefferson Project's Lake George conservation efforts.",
+    "bullets": [
+      "Implemented the UI controls for tele-operating and tuning a closed-loop control system for lightweight motor controllers in Python"
+    ],
+    "tags": [
+      "Python",
+      "PID",
+      "Controls",
+      "Robotics"
+    ]
+  },
+  {
+    "period": "June 2015 — June 2016",
+    "title": "Student Research Assistant",
+    "org": "SUNY Polytechnic Institute",
+    "location": "Albany, NY",
+    "summary": "Helped design and build an ultra-high vacuum system to deposit TiO₂ crystals that catalyze electrolysis, aiming to increase the energy yield of hydrogen fuel cells and further hydrogen-based clean energy.",
+    "bullets": [
+      "Integrated the system's mechanical and ion pump vacuums",
+      "Assisted with X-ray photoelectron spectroscopy (XPS) to collect data on sample TiO₂ depositions"
+    ],
+    "tags": [
+      "Vacuum systems",
+      "XPS",
+      "Clean energy"
+    ]
+  },
+  {
+    "period": "2013 — 2017",
+    "title": "Student, Programming",
+    "org": "FRC Team 2791 — Shaker Robotics",
+    "location": "Latham, NY",
+    "summary": "Where it started: high-school FIRST robotics, writing the robot's code.",
+    "bullets": [
+      "Head of Software development for teleoperation and autonomous robot code",
+      "Brought Team 254's trajectory library into the Java for smooth autonomous pathing from pre-defined waypoitns",
+      "Wrote small ROS Kinetic driver nodes on the side"
+    ],
+    "tags": [
+      "Java",
+      "ROS",
+      "FIRST"
+    ]
+  }
+]
