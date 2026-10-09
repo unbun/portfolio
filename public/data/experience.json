@@ -70,8 +70,8 @@
     "summary": "Embedded software for the motor controllers, camera capture and laser-etching devices of the ThinPrep 5000.",
     "bullets": [
       "Implemented and updated embedded control logic for motorized and pneumatic subsystems within the ThinPrep 5000 (TP5000) system for fully automatic processing of gynecology, oncology, and Pap test samples.",
-      "Developed slide designer to create custom laser-etched slides that can be read by integrated Cognex cameras.",
-      "Designed robust TP5000 “power-on” tests to guarantee the system starts in a happy state or prompts the user."
+      "Developed custom Galil motion-control firmware, and a software API to command a robotic arm-guided laser that etches fiducials onto slides, and integrated Cognex cameras to read slide labels for sample tracking.",
+      "Designed and implemented robust TP5000 power-on tests on for motor reachability and Galil processors to guarantee the power system and motor packs can reach full range-of-motion with the available current."
     ],
     "tags": [
       "Medical devices",

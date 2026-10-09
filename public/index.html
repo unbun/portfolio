@@ -34,11 +34,22 @@
       <div class="wrap">
         <!-- One of these is typed out at random on each visit. -->
         <p class="kicker prompt" aria-hidden="true" data-prompts='[
+          "$ git log --oneline --author=\"Unnas Hussain\""
           "$ ros2 launch portfolio home.launch.py",
           "$ sudo systemctl start portfolio.service",
           "$ colcon build --packages-select portfolio",
-          "$ claude -p \"summarize my career with a single website\"",
-          "$ npm run boot:portfolio"
+          "$ claude -p \"summarize my career with a website\"",
+          "$ npm run boot:portfolio",
+          "$ docker run --rm -it unnas/portfolio:latest",
+          "$ python3 -m portfolio --verbose",
+          "$ git log --oneline --author=\"Unnas Hussain\""
+          "$ catkin_make && source devel/setup.bash",
+          "$ gz sim portfolio_world.sdf",
+          "$ ./gradlew deploy",
+          "$ make -j$(nproc) portfolio",
+          "$ go run ./cmd/portfolio",
+          "$ matlab -batch \"portfolio_sim\"",
+          "$ git log --oneline --author=\"Unnas Hussain\""
         ]'></p>
         <h1>Unnas Hussain<span class="dot">.</span></h1>
         <p class="subtitle">
@@ -47,7 +58,7 @@
         <div class="hero-actions">
           <a class="btn btn-primary" href="experience">Experience <span class="arrow">→</span></a>
           <a class="btn" href="projects">Projects <span class="arrow">→</span></a>
-          <a class="btn btn-ghost" href="resources/Unnas%20Hussain%20-%20Resume.pdf" download>
+          <a class="btn btn-ghost" href="resources/Unnas%20Hussain%20-%20Full%20Resume.pdf" download>
             <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M7 1.5v8M3.5 6 7 9.5 10.5 6M2 12.5h10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
             Download resume
           </a>
@@ -123,20 +134,14 @@
     <section class="section" aria-labelledby="awards-h">
       <div class="wrap">
         <div class="section-head">
-          <h2 id="awards-h">Patents, Awards, &amp; Recognition</h2>
+          <h2 id="awards-h">Patents &amp; Recognitions</h2>
         </div>
         <ul class="awards">
           <li class="award">
             <span class="award-type">Patent</span>
             <h3>Systems and Methods for Clinical Workspace Simulation</h3>
-            <span class="award-ref">US Patent Pub. No. 20240256723</span>
+            <span class="award-ref">US 2024/0256723 A1</span>
             <span class="award-date"><span class="ph">May 2022</span></span>
-          </li>
-          <li class="award">
-            <span class="award-type">Provisional patent</span>
-            <h3>Strategies to Adjust Proximal Roll Angle of a Robotic Continuum Device While Preserving Distal Articulating Section Tip Position</h3>
-            <span class="award-ref">Provisional Patent No. 63/953,627</span>
-            <span class="award-date"><span class="ph">Dec 2025</span></span>
           </li>
           <li class="award">
             <span class="award-type">Provisional patent</span>
@@ -149,6 +154,12 @@
             <h3>Articulation Tube Assemblies with Torque-based Indicators of Articulation Angle</h3>
             <span class="award-ref">Provisional Patent No. 63/983,943</span>
             <span class="award-date"><span class="ph">Feb 2026</span></span>
+          </li>
+          <li class="award">
+            <span class="award-type">Provisional patent</span>
+            <h3>Strategies to Adjust Proximal Roll Angle of a Robotic Continuum Device While Preserving Distal Articulating Section Tip Position</h3>
+            <span class="award-ref">Provisional Patent No. 63/953,627</span>
+            <span class="award-date"><span class="ph">Dec 2025</span></span>
           </li>
           <li class="award">
             <span class="award-type">Provisional patent</span>
@@ -227,7 +238,7 @@
             </a>
           </li>
           <li>
-            <a href="resources/Unnas%20Hussain%20-%20Resume.pdf" download>
+            <a href="resources/Unnas%20Hussain%20-%20Full%20Resume.pdf" download>
               <span class="label">Resume</span>
               <span class="value">Download PDF <span class="arrow">↓</span></span>
             </a>
